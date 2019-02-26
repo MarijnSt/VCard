@@ -52,13 +52,6 @@ a:hover {
 	color: #046E91;
 }
 
-img {
-	width: 200px;
-	margin-bottom: 40px;
-	border-radius: 50%;
-	box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
 .socials i {
 	font-size: 1.2em;
 	padding-right: 2em;
