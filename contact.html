@@ -3,23 +3,33 @@
 <head>
 	<title>Marijn Stammeleer</title>
 	<link rel="stylesheet" type="text/css" href="VCard.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
 		<div class="navbar">
-			<a href="#" class="active"><i class="fas fa-home"></i></a>
+			<a href="index.html"><i class="fas fa-home"></i></a>
 			<a href="about-me.html"><i class="fas fa-user"></i></a>
 			<a href="skills.html"><i class="fas fa-code"></i></a>
-			<a href="contact.html"><i class="fas fa-envelope"></i></a>
+			<a href="contact.html" class="active"><i class="fas fa-envelope"></i></a>
 		</div>
 		<div class="content">
-			<div class="introduction">
-				<img src="Media/pic.png">
-				<h2>Marijn Stammeleer</h2>
-				<p style="color: #023E51;">Junior Web Developer - BeCode</p>
+			<div class="title"><h1>Contact me</h1></div>
+			<div class="main">
+				<p>Want me to work on a website for you? Got a question? Shoot!</p>
+				<form>
+					<label>Name:
+						<input type="text" name="naam" required placeholder="Tell me who you are please">
+					</label>
+					<label>E-mail:
+						<input type="email" name="mail" required placeholder="Where do I send my answer?">
+					</label>
+					<label>
+						<textarea placeholder="You can write your message here"></textarea>
+					</label>
+				</form>
 			</div>
 			<div class="socials">
 				<a href="#"><i class="fab fa-facebook-f"></i></a>

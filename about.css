@@ -1,63 +1,33 @@
-body {
-	background-color: #046E91;
-	margin: 0;
-	font-family: "Ubuntu", sans-serif;
-	letter-spacing: 1px;
-}
-
-.container {
-	display: grid;
-	grid-template-columns: 75px 1fr;
-	grid-template-rows: 1fr 100px;
-	height: 100vh;
-}
-
-.navbar {
-	grid-row: 1/3;
-	background-color: #023E51;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-}
-
 .content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+	justify-items: center;
 	align-items: center;
 	color: white;
 }
 
-.socials {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.active {
-	color: #046E91;
-}
-
-i {
-	font-size: 1.6em;
-	padding: 40px 0;
-}
-
-a {
-	color: white;
-}
-
-a:hover {
-	color: #046E91;
-}
-
-.socials i {
-	font-size: 1.2em;
-	padding-right: 2em;
-	padding-left: 2em;
-}
-
-.socials i:hover {
+.title {
+	justify-self: end;
+	padding-right: 100px;
 	color: #023E51;
+}
+
+.introduction {
+	width: 65%;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	grid-column-gap: 40px;
+	align-items: start;
+}
+
+.introduction p:nth-child(1) {
+	font-size: 2em;
+	text-align: right;
+	margin: 0;
+}
+
+.introduction p:nth-child(2) {
+	font-weight: 300;
+	margin: 0;
+	padding-top: 5px;
 }

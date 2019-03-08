@@ -1,0 +1,47 @@
+.content {
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+	justify-items: center;
+	align-items: center;
+	color: white;
+}
+
+.title {
+	justify-self: end;
+	padding-right: 100px;
+	color: #023E51;
+}
+
+.content {
+	text-align: center;
+}
+
+.main {
+	width: 50%;
+}
+
+label {
+	display: block;
+	margin: 50px 0;
+}
+
+input {
+	width: 70%;
+	height: 15px;
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+textarea {
+	width: 80%;
+	height: 150px;
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+.message label {
+	text-align: left;
+	padding-bottom: 5px;
+}

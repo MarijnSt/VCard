@@ -1,0 +1,22 @@
+.content {
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+	justify-items: center;
+	align-items: center;
+	color: white;
+}
+
+.title {
+	justify-self: end;
+	padding-right: 100px;
+	color: #023E51;
+}
+
+.skillcircle {
+	width: 100px;
+	padding: 0 20px;
+}
+
+.Programming {
+	margin-bottom: 50px;
+}
